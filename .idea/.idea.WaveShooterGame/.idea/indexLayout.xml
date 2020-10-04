@@ -23,13 +23,12 @@
       <Path>ProjectSettings</Path>
     </explicitIncludes>
     <explicitExcludes>
+      <Path>.git</Path>
       <Path>.idea</Path>
-      <Path>Build1</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
-      <Path>WaveShooter2</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>

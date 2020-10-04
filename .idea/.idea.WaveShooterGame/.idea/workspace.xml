@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba465207-c241-4ce1-98b8-e9ebed6a06b7" name="Default Changelist" comment="" />
+    <list default="true" id="ba465207-c241-4ce1-98b8-e9ebed6a06b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Code/WeaponBlueprint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/WeaponBlueprint.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/WeaponController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/WeaponController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/5forge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/5forge.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/AC_Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/AC_Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/M_Forge.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/M_Forge.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/M_Proto.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/M_Proto.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/P_Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/P_Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/PlayerState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CameraBoom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/WeaponBlueprint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/WeaponController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -20,10 +44,14 @@
         <option value="$PROJECT_DIR$/Assets/Code/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/PlayerState.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/WeaponController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/WeaponBlueprint.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1iQCdGd7HBEADiN6rDBVJDTo3gX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -76,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601830515787</updated>
-      <workItem from="1601830526133" duration="3414000" />
+      <workItem from="1601830526133" duration="4903000" />
     </task>
     <servers />
   </component>
@@ -85,6 +113,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
