@@ -39,8 +39,10 @@ namespace Code
 
         private void Update()
         {
+            var pitch = Mathf.Lerp(-60f, 60f, (playerState.pitch + 1f) / 2f); 
+
             transform.localRotation = Quaternion.Euler(0, playerState.yaw, 0);
-            cameraBoom.SetPitch(playerState.pitch);
+            cameraBoom.SetPitch(pitch);
             
             animator.SetFloat("VerticalMovement", playerState.verticalMovement);
             
@@ -48,25 +50,29 @@ namespace Code
             {
                 return;
             }
-            
-            CameraMovement();
-            Movement();
-        }
 
-        private void CameraMovement()
-        {
-            var pitch = Input.GetAxis("Mouse Y") * 140f * Time.deltaTime;
-            var yaw = Input.GetAxis("Mouse X") * 140f * Time.deltaTime;
-            
-            playerState.yaw += yaw;
-            playerState.pitch = Mathf.Clamp(playerState.pitch - pitch, -60f, 60f);
-        }
-
-        private void Movement()
-        {
             var mx = Input.GetAxis("Horizontal");
             var my = Input.GetAxis("Vertical");
+            var mouseX = Input.GetAxis("Mouse Y");
+            var mouseY = Input.GetAxis("Mouse X");
+            
+            CameraMovement(mouseX, mouseY);
+            Movement(mx, my);
+        }
 
+        [Command]
+        private void CameraMovement(float pitch, float yaw)
+        {
+            var pitchChange = pitch * 2f * Time.deltaTime;
+            var yawChange = yaw * 140f * Time.deltaTime;
+            
+            playerState.yaw += yaw;
+            playerState.pitch = Mathf.Clamp(playerState.pitch - pitchChange, -1f, 1f);
+        }
+
+        [Command]
+        private void Movement(float mx, float my)
+        {
             playerState.horizontalMovement = mx;
             playerState.verticalMovement = my;
 

@@ -8,5 +8,7 @@ namespace Code
         public string displayName;
         public GameObject prefab;
         public GameObject projectilePrefab;
+        
+        public WeaponBlueprint blueprint;
     }
 }

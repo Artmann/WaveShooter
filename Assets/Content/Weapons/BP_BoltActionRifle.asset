@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: Bolt Action Rifle
   prefab: {fileID: 7578797539577301437, guid: a64ae32e2ea04ca439207d52995a3efe, type: 3}
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 5943848082525852710, guid: 6792b8bbccb63d04d94c04f9abf46368, type: 3}
+  blueprint: {fileID: 0}

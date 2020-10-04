@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba465207-c241-4ce1-98b8-e9ebed6a06b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/WeaponBlueprint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/WeaponBlueprint.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/WeaponController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/WeaponController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WaveShooterGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Content/5forge.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Content/5forge.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Content/AC_Player.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Content/AC_Player.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Content/M_Forge.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Content/M_Forge.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Content/M_Proto.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Content/M_Proto.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Content/P_Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Content/P_Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/WeaponBlueprint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/WeaponBlueprint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Weapons/BP_BoltActionRifle.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Content/Weapons/BP_BoltActionRifle.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +30,10 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Code/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/PlayerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/WeaponController.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/WeaponBlueprint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -104,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601830515787</updated>
-      <workItem from="1601830526133" duration="4903000" />
+      <workItem from="1601830526133" duration="6102000" />
     </task>
     <servers />
   </component>
