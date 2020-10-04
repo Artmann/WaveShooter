@@ -5,8 +5,7 @@ namespace Code
 {
     public class PlayerController : NetworkBehaviour
     {
-        [SyncVar]
-        [SerializeField] private PlayerState playerState;
+        [SyncVar] public PlayerState playerState;
 
         private Vector3 velocity;
         private bool isGrounded;
